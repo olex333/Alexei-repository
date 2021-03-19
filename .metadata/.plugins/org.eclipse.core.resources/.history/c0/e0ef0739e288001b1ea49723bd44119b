@@ -1,0 +1,20 @@
+package com.bankapp.user.customer.service.impl;
+
+import com.bankapp.exception.BusinessException;
+import com.bankapp.model.User;
+import com.bankapp.user.customer.service.CustomerLoginService;
+import com.bankapp.user.customer.service.CustomerValidations;
+
+public class CustomerLoginServiceImpl implements CustomerLoginService {
+
+	@Override
+	public User LogIn(User user) throws BusinessException {
+		if (CustomerValidations.isValidPassword(null) && 
+				CustomerValidations.isValidUserName(null) ) {
+			// code to dao
+		} else {
+			throw new BusinessException("Enter User name and password do not match our records");
+		}
+	}
+
+}

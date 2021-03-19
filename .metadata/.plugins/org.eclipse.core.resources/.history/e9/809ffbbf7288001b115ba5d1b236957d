@@ -1,0 +1,5 @@
+package com.bankapp.user.model;
+
+public class customer {
+
+}

@@ -1,0 +1,17 @@
+package com.demo.dao;
+
+import org.apache.log4j.Logger;
+
+import com.demo.service.LogService;
+
+public class LogDAO {
+	
+	private static Logger log = Logger.getLogger(LogService.class);
+	public void helloLogDAO() {
+		log.info("hello from LogDAO");
+		//some operation in logdao
+		log.info("bye bye from LogDAO");
+	}
+
+
+}

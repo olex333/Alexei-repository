@@ -1,0 +1,8 @@
+package com.bankapp.model;
+
+public class Employee {
+	private String firstName;
+	private String lastName;
+	private String employee_id;
+
+}

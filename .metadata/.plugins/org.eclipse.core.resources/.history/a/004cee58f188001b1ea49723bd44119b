@@ -1,0 +1,34 @@
+package com.bankapp.user.customer.service.impl;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.exception.BusinessException;
+import com.bankapp.model.User;
+import com.bankapp.user.customer.dao.CustomerLoginDAOImpl;
+import com.bankapp.user.customer.dao.CustomerLoginDao;
+import com.bankapp.user.customer.service.CustomerLoginService;
+import com.bankapp.user.customer.service.CustomerValidations;
+
+public class CustomerLoginServiceImpl implements CustomerLoginService {
+	private static Logger Log = Logger.getLogger(CustomerLoginServiceImpl.class);
+
+
+	CustomerLoginDao customerLogin = new CustomerLoginDAOImpl();
+	@Override
+	public User LogIn(User user) throws BusinessException {
+		if (CustomerValidations.isValidPassword(user.getPassword()) && 
+				CustomerValidations.isValidUserName(user.getUsername()) ) {
+			// code to dao
+//			User user1 = customerLogin.LogIn(user.getUsername(), user.getPassword());
+//			if (user1.getUsername().equals(user.getUsername()) && 
+//					user1.getPassword().equals(user.getPassword())) {
+//				Log.info("Loggin succesful");
+				
+			
+		} else {
+			throw new BusinessException("Entered User name and password do not match our records");
+		}
+		return user;
+	}
+
+}

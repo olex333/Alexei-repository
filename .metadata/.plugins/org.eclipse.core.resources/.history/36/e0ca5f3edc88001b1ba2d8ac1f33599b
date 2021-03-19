@@ -1,0 +1,5 @@
+package com.app.player.service.impl;
+
+public class CustomerValidations {
+
+}

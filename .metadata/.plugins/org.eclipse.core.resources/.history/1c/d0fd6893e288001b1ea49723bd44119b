@@ -1,0 +1,5 @@
+package com.bankapp.user.customer.dao;
+
+public class CustomerLoginDAOImpl {
+
+}

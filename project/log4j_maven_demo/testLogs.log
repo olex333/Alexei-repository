@@ -1,0 +1,6 @@
+{INFO} - [com.demo.main.Main] -    Hello from INFO     -  Mar-18-21 Thursday MDT 21:55:35
+{WARN} - [com.demo.main.Main] -    Hello from WARN     -  Mar-18-21 Thursday MDT 21:55:35
+{ERROR} - [com.demo.main.Main] -    Hello from ERROR     -  Mar-18-21 Thursday MDT 21:55:35
+{FATAL} - [com.demo.main.Main] -    Hello from FATAL     -  Mar-18-21 Thursday MDT 21:55:35
+{INFO} - [com.demo.service.LogService] -    hello to customer from logService     -  Mar-18-21 Thursday MDT 21:55:35
+{INFO} - [com.demo.service.LogService] -    hello to customer from LogDAO     -  Mar-18-21 Thursday MDT 21:55:35

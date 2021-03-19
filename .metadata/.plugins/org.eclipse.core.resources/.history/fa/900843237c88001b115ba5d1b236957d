@@ -1,0 +1,24 @@
+package com.bankapp.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import jdk.internal.org.jline.utils.Log;
+
+@SuppressWarnings("restriction")
+public class Main {
+	private static Logger Log = Logger.getLogger(Main.class);
+
+	public static void main(String[] args) {
+		jdk.internal.org.jline.utils.Log.info("Welcome to the Alexei bank"
+				+ " app V1.0");
+		jdk.internal.org.jline.utils.Log.info("================");
+		
+		int ch = 0;
+		Scanner scanner = new Scanner(System.in);
+		
+		
+	}
+
+}

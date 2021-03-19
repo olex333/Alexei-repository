@@ -1,0 +1,14 @@
+package com.bankapp.user.customer.dao;
+
+import com.bankapp.exception.BusinessException;
+import com.bankapp.model.User;
+
+public class CustomerLoginDAOImpl implements CustomerLoginDao {
+
+	@Override
+	public User LogIn(User user) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.bankapp.user.customer.service.impl;
+
+import com.bankapp.model.User;
+import com.bankapp.user.customer.service.CustomerLoginService;
+
+public class CustomerLoginServiceImpl implements CustomerLoginService {
+
+	@Override
+	public User LogIn(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

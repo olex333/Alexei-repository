@@ -1,0 +1,17 @@
+package com.bankapp.main.menu;
+
+import org.apache.log4j.Logger;
+
+
+
+public class Menu {
+	private static Logger Log = Logger.getLogger(Menu.class);
+
+	
+	public void printUserMenu() {
+		Log.info("User MENU");
+		Log.info("1) for Employee");
+		Log.info("2) for Customer");
+	}
+
+}

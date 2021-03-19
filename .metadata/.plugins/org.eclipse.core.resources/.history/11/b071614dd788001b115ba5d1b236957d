@@ -1,0 +1,6 @@
+package com.bankapp.user.customer.service;
+
+public interface CustomerLoginService {
+	public User LogIn(User user);
+
+}

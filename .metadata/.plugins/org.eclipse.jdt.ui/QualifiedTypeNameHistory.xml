@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.demo.dao.LogDAO"/>
+    <fullyQualifiedTypeName name="com.demo.service.LogService"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.bankapp.main.menu.Menu"/>
+    <fullyQualifiedTypeName name="com.bankapp.main.menu.PrintMenu"/>
+    <fullyQualifiedTypeName name="com.bankapp.model.User"/>
+    <fullyQualifiedTypeName name="com.bankapp.user.customer.service.CustomerValidations"/>
+    <fullyQualifiedTypeName name="com.bankapp.dao.dbutil.PostgresConnection"/>
+    <fullyQualifiedTypeName name="com.bankapp.exception.BusinessException"/>
+    <fullyQualifiedTypeName name="com.bankapp.user.customer.dao.CustomerLoginDao"/>
+    <fullyQualifiedTypeName name="com.bankapp.user.customer.service.impl.CustomerLoginServiceImpl"/>
+    <fullyQualifiedTypeName name="com.bankapp.user.customer.service.CustomerLoginService"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.Log"/>
+    <fullyQualifiedTypeName name="com.bankapp.user.customer.dao.CustomerLoginDAOImpl"/>
+</qualifiedTypeNameHistroy>

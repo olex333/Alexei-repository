@@ -1,0 +1,12 @@
+package com.demo.dao;
+
+import org.apache.log4j.Logger;
+
+import com.demo.service.LogService;
+
+public class LogDAO {
+	
+	private static Logger log = Logger.getLogger(LogService.class);
+
+
+}

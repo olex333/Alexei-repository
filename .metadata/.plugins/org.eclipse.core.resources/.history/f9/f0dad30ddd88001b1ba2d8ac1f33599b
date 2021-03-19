@@ -1,0 +1,5 @@
+package com.bankapp.user.customer.service;
+
+public class CustomerValidations {
+
+}

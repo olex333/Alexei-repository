@@ -1,0 +1,37 @@
+package com.bankapp.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.main.menu.Menu;
+
+import jdk.internal.org.jline.utils.Log;
+
+
+public class Main {
+	private static Logger Log = Logger.getLogger(Main.class);
+
+	public static void main(String[] args) {
+		Log.info("Welcome to the Alexei bank"
+				+ " app V1.0");
+		Log.info("================");
+		Menu menu = new Menu();
+		
+		int ch = 0;
+		Scanner scanner = new Scanner(System.in);
+		
+		do {
+			menu.printUserMenu();
+			try {
+				ch = Integer.parseInt(scanner.nextLine());
+			} catch (NumberFormatException e) {
+
+			}
+			
+		} while (ch != 3);
+		
+		
+	}
+
+}
